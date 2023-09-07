@@ -1,0 +1,2522 @@
+[
+  {
+    "service_request": [
+      {
+        "id": "3b65241b-0db4-4394-b1d3-b31d43b010d0",
+        "status": "Pending",
+        "problem_description": "The system is experiencing slow performance",
+        "solution_description": "Performed system optimization to improve performance",
+        "created_at": "2023-09-06T11:30:58.190Z",
+        "updated_at": "2023-09-06T13:59:21.228Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8007e41a-7e8e-4b4d-98fb-28394ae9fe78",
+        "status": "In Progress",
+        "problem_description": "Unable to access the application",
+        "solution_description": "Resolved the access issue by resetting user credentials",
+        "created_at": "2023-09-06T17:48:00.640Z",
+        "updated_at": "2023-09-07T04:36:42.869Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b5f37a15-ae13-4e4a-931c-75b3c24249c8",
+        "status": "Completed",
+        "problem_description": "Error message displayed during login",
+        "solution_description": "Fixed the bug causing the error message",
+        "created_at": "2023-09-06T20:58:57.093Z",
+        "updated_at": "2023-09-06T13:52:10.620Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d1342ca6-daaf-4d04-96d6-e8552bd9073b",
+        "status": "On Hold",
+        "problem_description": "Data loss issue in the database",
+        "solution_description": "Restored the database from backup to recover lost data",
+        "created_at": "2023-09-06T14:27:16.032Z",
+        "updated_at": "2023-09-07T04:59:34.709Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8259381f-1590-4a54-b4e8-25c58abd1198",
+        "status": "Cancelled",
+        "problem_description": "Integration problem with third-party software",
+        "solution_description": "Implemented a workaround to resolve the integration problem",
+        "created_at": "2023-09-07T05:48:57.207Z",
+        "updated_at": "2023-09-06T12:02:35.667Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "9655ca30-7ac0-4e03-9565-dddf4d268256",
+        "name": "Meeting",
+        "description": "Discussing project updates and next steps",
+        "status": "Scheduled",
+        "created_at": "2023-09-06T19:23:18.722Z",
+        "updated_at": "2023-09-06T10:20:12.009Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "d1342ca6-daaf-4d04-96d6-e8552bd9073b"
+      },
+      {
+        "id": "efd5ab06-20b3-444d-903f-e8d82062eeb2",
+        "name": "Training Session",
+        "description": "Learning new techniques and best practices",
+        "status": "In Progress",
+        "created_at": "2023-09-06T13:36:53.132Z",
+        "updated_at": "2023-09-06T16:39:23.541Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "d1342ca6-daaf-4d04-96d6-e8552bd9073b"
+      },
+      {
+        "id": "88742318-90f3-449d-b892-49fbfbc5d590",
+        "name": "Product Demo",
+        "description": "Presenting product features to potential customers",
+        "status": "Completed",
+        "created_at": "2023-09-06T18:21:41.020Z",
+        "updated_at": "2023-09-06T11:40:53.010Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "d1342ca6-daaf-4d04-96d6-e8552bd9073b"
+      },
+      {
+        "id": "f1744fc0-8234-4b11-99eb-4a7abcd1803d",
+        "name": "Team Building Activity",
+        "description": "Engaging in team-building exercises",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T08:35:49.600Z",
+        "updated_at": "2023-09-06T12:06:25.454Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "b5f37a15-ae13-4e4a-931c-75b3c24249c8"
+      },
+      {
+        "id": "b5c631a0-302e-4e34-a1dc-3b7fa4d45b2d",
+        "name": "Client Presentation",
+        "description": "Pitching a proposal to a client",
+        "status": "Postponed",
+        "created_at": "2023-09-07T03:22:42.940Z",
+        "updated_at": "2023-09-07T02:57:31.697Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "8259381f-1590-4a54-b4e8-25c58abd1198"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "cd9f4de7-03fc-472e-a4e7-5527df3b23c7",
+        "start_time": "2023-09-07T02:14:05.445Z",
+        "end_time": "2023-09-06T14:26:10.781Z",
+        "status": "Active",
+        "created_at": "2023-09-06T16:27:30.683Z",
+        "updated_at": "2023-09-07T01:14:43.685Z",
+        "activity_id": "efd5ab06-20b3-444d-903f-e8d82062eeb2",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "830a07f4-c48c-4aeb-92cd-b27ac1bc90ff",
+        "start_time": "2023-09-07T05:07:26.974Z",
+        "end_time": "2023-09-06T12:51:00.860Z",
+        "status": "Inactive",
+        "created_at": "2023-09-07T01:50:01.264Z",
+        "updated_at": "2023-09-06T10:37:42.828Z",
+        "activity_id": "9655ca30-7ac0-4e03-9565-dddf4d268256",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "19eceac7-ad68-4005-a030-f3e335fd0156",
+        "start_time": "2023-09-07T08:00:19.573Z",
+        "end_time": "2023-09-06T19:46:33.930Z",
+        "status": "Pending",
+        "created_at": "2023-09-06T20:39:50.809Z",
+        "updated_at": "2023-09-07T04:47:33.842Z",
+        "activity_id": "88742318-90f3-449d-b892-49fbfbc5d590",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "c2a1bdc8-4350-4590-9ce7-9c7d3f0a434e",
+        "start_time": "2023-09-06T20:24:55.820Z",
+        "end_time": "2023-09-06T21:12:38.455Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-07T03:01:00.376Z",
+        "updated_at": "2023-09-06T13:19:14.399Z",
+        "activity_id": "efd5ab06-20b3-444d-903f-e8d82062eeb2",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "95a87858-311a-4494-aaa0-5e09a96ac6c9",
+        "start_time": "2023-09-07T04:18:37.122Z",
+        "end_time": "2023-09-06T11:08:40.340Z",
+        "status": "Completed",
+        "created_at": "2023-09-06T17:04:00.052Z",
+        "updated_at": "2023-09-06T23:59:13.411Z",
+        "activity_id": "f1744fc0-8234-4b11-99eb-4a7abcd1803d",
+        "engineer_id": "user_entity_pk"
+      }
+    ],
+    "parts_order": [
+      {
+        "id": "e4c376f2-95bd-4a0a-9b51-fd18f9545584",
+        "part_name": "CPU",
+        "quantity": 5682,
+        "status": "Processing",
+        "created_at": "2023-09-06T16:01:19.227Z",
+        "updated_at": "2023-09-06T13:59:01.663Z",
+        "activity_id": "f1744fc0-8234-4b11-99eb-4a7abcd1803d"
+      },
+      {
+        "id": "d3e9d202-64fe-4f1e-ab93-ccd2661f53e1",
+        "part_name": "RAM",
+        "quantity": 45371,
+        "status": "Shipped",
+        "created_at": "2023-09-06T18:45:00.126Z",
+        "updated_at": "2023-09-06T16:36:17.276Z",
+        "activity_id": "9655ca30-7ac0-4e03-9565-dddf4d268256"
+      },
+      {
+        "id": "9250f5df-9587-4526-a946-c04f04173baa",
+        "part_name": "Hard Drive",
+        "quantity": 63817,
+        "status": "Delivered",
+        "created_at": "2023-09-06T12:02:41.348Z",
+        "updated_at": "2023-09-06T22:05:41.817Z",
+        "activity_id": "efd5ab06-20b3-444d-903f-e8d82062eeb2"
+      },
+      {
+        "id": "07cceaa7-1162-49fa-94f8-9c23d095235d",
+        "part_name": "Motherboard",
+        "quantity": 28656,
+        "status": "Cancelled",
+        "created_at": "2023-09-07T00:26:58.022Z",
+        "updated_at": "2023-09-06T18:50:22.389Z",
+        "activity_id": "9655ca30-7ac0-4e03-9565-dddf4d268256"
+      },
+      {
+        "id": "d2aa5d01-55eb-4ee8-bcb3-ab59f593ddde",
+        "part_name": "Graphics Card",
+        "quantity": 10487,
+        "status": "Backordered",
+        "created_at": "2023-09-06T12:54:23.569Z",
+        "updated_at": "2023-09-06T12:16:14.558Z",
+        "activity_id": "efd5ab06-20b3-444d-903f-e8d82062eeb2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8b4f57ee-af6b-4032-9b85-555058cd33a6",
+        "email": "Linwood.Sauer72@yahoo.com",
+        "firstName": "Americo",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49537127",
+        "tenantId": null
+      },
+      {
+        "reference": "f09190bb-71a6-4eb4-b5ed-4ec0a62047e8",
+        "email": "Cary4@yahoo.com",
+        "firstName": "Lauryn",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57757403",
+        "tenantId": null
+      },
+      {
+        "reference": "fa383b7e-d4ae-4e4f-8361-443bc04db7e6",
+        "email": "Erick_Mohr17@hotmail.com",
+        "firstName": "Merl",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/784.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d99185bf-d1ca-4c45-a122-ef58711e191f",
+        "email": "Warren65@hotmail.com",
+        "firstName": "Connor",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84358115",
+        "tenantId": null
+      },
+      {
+        "reference": "05072a4f-56b0-4e9e-bea3-d705db5f54fe",
+        "email": "Vida63@hotmail.com",
+        "firstName": "Ernest",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/230.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_request": [
+      {
+        "id": "08eb0bdd-3bfe-40f2-978d-6db08f3d7a0d",
+        "status": "Pending",
+        "problem_description": "The website is not loading properly",
+        "solution_description": "Performed troubleshooting and fixed the issue",
+        "created_at": "2023-09-06T10:18:07.555Z",
+        "updated_at": "2023-09-07T04:09:02.928Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6e93e9d0-a987-4236-822d-704cbcce89bd",
+        "status": "In Progress",
+        "problem_description": "The printer is not working",
+        "solution_description": "Replaced the faulty printer cartridge",
+        "created_at": "2023-09-07T07:53:09.085Z",
+        "updated_at": "2023-09-06T19:15:05.171Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "583ced51-b375-41a1-abde-13ce9b045080",
+        "status": "Completed",
+        "problem_description": "The server is down",
+        "solution_description": "Restarted the server and restored services",
+        "created_at": "2023-09-07T07:02:02.591Z",
+        "updated_at": "2023-09-07T01:18:09.452Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "db18de5a-8623-422e-8386-086d9680241b",
+        "status": "On Hold",
+        "problem_description": "There is a leak in the plumbing system",
+        "solution_description": "Repaired the plumbing leak and tested for leaks",
+        "created_at": "2023-09-06T11:47:23.678Z",
+        "updated_at": "2023-09-06T22:32:46.756Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b8bb1e9f-59fd-444a-a104-376141dd4efe",
+        "status": "Cancelled",
+        "problem_description": "The air conditioning unit is not cooling",
+        "solution_description": "Cleaned and serviced the air conditioning unit",
+        "created_at": "2023-09-06T22:00:15.117Z",
+        "updated_at": "2023-09-07T04:16:11.972Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "9ce660a4-8227-4b05-be11-11d66642475e",
+        "name": "Team Building Workshop",
+        "description": "A fun-filled workshop to enhance team collaboration and communication",
+        "status": "Upcoming",
+        "created_at": "2023-09-06T18:49:29.382Z",
+        "updated_at": "2023-09-07T00:19:56.867Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "583ced51-b375-41a1-abde-13ce9b045080"
+      },
+      {
+        "id": "fe252093-33ac-4617-8a58-9aa5909aba6d",
+        "name": "Product Launch Event",
+        "description": "An event to introduce the latest product to the market",
+        "status": "Ongoing",
+        "created_at": "2023-09-06T22:35:07.228Z",
+        "updated_at": "2023-09-06T13:11:47.457Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "b8bb1e9f-59fd-444a-a104-376141dd4efe"
+      },
+      {
+        "id": "e7423148-9944-456f-9894-5d6b27df6e07",
+        "name": "Training Session",
+        "description": "A session to train employees on new software tools",
+        "status": "Completed",
+        "created_at": "2023-09-06T17:21:47.608Z",
+        "updated_at": "2023-09-06T15:25:45.996Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "b8bb1e9f-59fd-444a-a104-376141dd4efe"
+      },
+      {
+        "id": "5ab2ca49-555f-45d2-a28a-ce828dff335b",
+        "name": "Community Service Day",
+        "description": "A day dedicated to giving back to the community through volunteering",
+        "status": "Cancelled",
+        "created_at": "2023-09-07T02:38:37.787Z",
+        "updated_at": "2023-09-06T11:27:19.765Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "6e93e9d0-a987-4236-822d-704cbcce89bd"
+      },
+      {
+        "id": "a37853e2-0831-43a7-ad86-6af634e53476",
+        "name": "Conference Presentation",
+        "description": "A presentation on industry trends and best practices",
+        "status": "Postponed",
+        "created_at": "2023-09-06T20:14:16.929Z",
+        "updated_at": "2023-09-06T22:48:02.012Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "583ced51-b375-41a1-abde-13ce9b045080"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "4a2995a7-829f-4758-8272-99fc01ce589d",
+        "start_time": "2023-09-07T05:09:49.051Z",
+        "end_time": "2023-09-07T05:44:51.811Z",
+        "status": "Active",
+        "created_at": "2023-09-06T20:09:39.362Z",
+        "updated_at": "2023-09-06T14:12:36.506Z",
+        "activity_id": "a37853e2-0831-43a7-ad86-6af634e53476",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "3704c0c3-c4ea-45e6-ac04-0cb20c8adc29",
+        "start_time": "2023-09-07T02:24:20.482Z",
+        "end_time": "2023-09-06T09:53:29.810Z",
+        "status": "Inactive",
+        "created_at": "2023-09-06T21:28:08.052Z",
+        "updated_at": "2023-09-06T23:37:46.733Z",
+        "activity_id": "fe252093-33ac-4617-8a58-9aa5909aba6d",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "03eb85c3-a5be-4ebf-8fe3-dd915745e14e",
+        "start_time": "2023-09-06T19:03:21.284Z",
+        "end_time": "2023-09-07T02:24:09.589Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-07T00:17:25.418Z",
+        "updated_at": "2023-09-06T12:56:24.913Z",
+        "activity_id": "a37853e2-0831-43a7-ad86-6af634e53476",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "211b3f1d-205f-48ad-93ed-9bff7acf7db9",
+        "start_time": "2023-09-07T03:56:15.731Z",
+        "end_time": "2023-09-07T01:51:53.299Z",
+        "status": "Pending",
+        "created_at": "2023-09-06T11:54:28.424Z",
+        "updated_at": "2023-09-07T05:51:06.241Z",
+        "activity_id": "9ce660a4-8227-4b05-be11-11d66642475e",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "7472eb8f-bbc3-4137-a233-6fb3af02db4d",
+        "start_time": "2023-09-07T01:06:42.796Z",
+        "end_time": "2023-09-06T10:47:33.031Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-07T01:03:22.859Z",
+        "updated_at": "2023-09-07T07:09:22.362Z",
+        "activity_id": "5ab2ca49-555f-45d2-a28a-ce828dff335b",
+        "engineer_id": "user_entity_pk"
+      }
+    ],
+    "parts_order": [
+      {
+        "id": "1f62f49a-1265-4f78-a773-59105c9309dd",
+        "part_name": "Replacement Battery",
+        "quantity": 17756,
+        "status": "Processing",
+        "created_at": "2023-09-06T14:17:32.086Z",
+        "updated_at": "2023-09-06T21:28:27.767Z",
+        "activity_id": "a37853e2-0831-43a7-ad86-6af634e53476"
+      },
+      {
+        "id": "e38a4433-b9e9-4945-bd53-d0e45ef049e2",
+        "part_name": "Motherboard",
+        "quantity": 46888,
+        "status": "Shipped",
+        "created_at": "2023-09-06T11:37:32.028Z",
+        "updated_at": "2023-09-07T06:11:26.018Z",
+        "activity_id": "a37853e2-0831-43a7-ad86-6af634e53476"
+      },
+      {
+        "id": "208f95c1-44b6-4e5c-8fb8-0b24d5c15102",
+        "part_name": "Printer Toner",
+        "quantity": 45922,
+        "status": "Delivered",
+        "created_at": "2023-09-06T23:23:36.667Z",
+        "updated_at": "2023-09-07T07:21:14.447Z",
+        "activity_id": "e7423148-9944-456f-9894-5d6b27df6e07"
+      },
+      {
+        "id": "c44d0872-a596-46ac-83c0-af97327863a0",
+        "part_name": "Plumbing Valve",
+        "quantity": 84534,
+        "status": "Cancelled",
+        "created_at": "2023-09-06T09:33:01.994Z",
+        "updated_at": "2023-09-07T05:01:13.986Z",
+        "activity_id": "e7423148-9944-456f-9894-5d6b27df6e07"
+      },
+      {
+        "id": "6c73be29-e482-4869-a7b7-da8eee795c96",
+        "part_name": "Air Filter",
+        "quantity": 29239,
+        "status": "Backordered",
+        "created_at": "2023-09-06T22:55:53.276Z",
+        "updated_at": "2023-09-07T06:48:35.297Z",
+        "activity_id": "a37853e2-0831-43a7-ad86-6af634e53476"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5675e919-5d26-483f-9d72-198a6b026721",
+        "email": "Helena73@gmail.com",
+        "firstName": "Valentine",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18371661",
+        "tenantId": null
+      },
+      {
+        "reference": "52ca18c4-9249-46f9-8a0d-0f942e587060",
+        "email": "Jett.Considine@yahoo.com",
+        "firstName": "Lauren",
+        "lastName": "Jaskolski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94414268",
+        "tenantId": null
+      },
+      {
+        "reference": "38c67b67-61f9-4d19-8067-0e4e1caa63eb",
+        "email": "Abigayle.Cartwright70@yahoo.com",
+        "firstName": "Abraham",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52942140",
+        "tenantId": null
+      },
+      {
+        "reference": "e7b7fd86-944e-4df2-8066-3517be9cdab8",
+        "email": "Nannie_Kunde@gmail.com",
+        "firstName": "Damian",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7567664",
+        "tenantId": null
+      },
+      {
+        "reference": "2e6fba13-81b1-4a0e-81e3-42d35d30dc13",
+        "email": "Aletha.Wunsch@hotmail.com",
+        "firstName": "Orie",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/567.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_request": [
+      {
+        "id": "d6085532-e478-4220-b5f2-8d4cb6839405",
+        "status": "Open",
+        "problem_description": "Network connectivity issue",
+        "solution_description": "Rebooted the system",
+        "created_at": "2023-09-07T06:29:09.586Z",
+        "updated_at": "2023-09-07T07:33:27.778Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b06db1db-9781-4c33-970d-89bf0213b905",
+        "status": "In Progress",
+        "problem_description": "Software installation problem",
+        "solution_description": "Reinstalled the software",
+        "created_at": "2023-09-06T17:30:30.969Z",
+        "updated_at": "2023-09-07T06:00:25.213Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4eb5f464-f049-488e-ae8b-40097f4f6af2",
+        "status": "Resolved",
+        "problem_description": "Hardware malfunction",
+        "solution_description": "Replaced faulty hardware component",
+        "created_at": "2023-09-06T16:57:42.020Z",
+        "updated_at": "2023-09-07T01:18:49.028Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ee2b6c20-9bc3-45b2-ae9b-5ce664cd3a93",
+        "status": "On Hold",
+        "problem_description": "Data loss",
+        "solution_description": "Restored data from backup",
+        "created_at": "2023-09-07T03:50:43.095Z",
+        "updated_at": "2023-09-06T19:55:31.337Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e21f2ef2-d704-4eb4-873a-bd61646852a4",
+        "status": "Cancelled",
+        "problem_description": "Application crash",
+        "solution_description": "Debugged and fixed the code",
+        "created_at": "2023-09-06T17:13:23.852Z",
+        "updated_at": "2023-09-06T11:02:20.194Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "9e7f7c5b-36e6-4912-99b4-2ee0ee7fe1ab",
+        "name": "Meeting",
+        "description": "Discussing project updates",
+        "status": "Scheduled",
+        "created_at": "2023-09-06T10:20:54.590Z",
+        "updated_at": "2023-09-06T15:39:41.897Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "4eb5f464-f049-488e-ae8b-40097f4f6af2"
+      },
+      {
+        "id": "ad2264f3-8858-4b6d-9a07-ef5c06d572ab",
+        "name": "Training session",
+        "description": "Learning new skills",
+        "status": "Ongoing",
+        "created_at": "2023-09-07T00:42:36.151Z",
+        "updated_at": "2023-09-07T03:57:12.025Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "e21f2ef2-d704-4eb4-873a-bd61646852a4"
+      },
+      {
+        "id": "b965d702-6f72-40c1-9b0b-b8a4827cab14",
+        "name": "Conference",
+        "description": "Networking with industry professionals",
+        "status": "Completed",
+        "created_at": "2023-09-06T19:13:34.469Z",
+        "updated_at": "2023-09-06T18:55:21.287Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "ee2b6c20-9bc3-45b2-ae9b-5ce664cd3a93"
+      },
+      {
+        "id": "38832f25-7c76-4c5f-893b-8a1d19ab8749",
+        "name": "Workshop",
+        "description": "Hands-on learning experience",
+        "status": "Cancelled",
+        "created_at": "2023-09-07T05:38:02.687Z",
+        "updated_at": "2023-09-06T23:16:58.967Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "d6085532-e478-4220-b5f2-8d4cb6839405"
+      },
+      {
+        "id": "3d30f614-3e3d-4bed-8f61-0985249fd086",
+        "name": "Webinar",
+        "description": "Online presentation",
+        "status": "Postponed",
+        "created_at": "2023-09-06T09:04:41.390Z",
+        "updated_at": "2023-09-06T16:56:44.696Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "e21f2ef2-d704-4eb4-873a-bd61646852a4"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "33e9b649-9418-48a8-87d0-3ae886351088",
+        "start_time": "2023-09-06T17:52:06.040Z",
+        "end_time": "2023-09-07T05:34:38.621Z",
+        "status": "Active",
+        "created_at": "2023-09-06T10:12:19.610Z",
+        "updated_at": "2023-09-07T03:39:25.182Z",
+        "activity_id": "ad2264f3-8858-4b6d-9a07-ef5c06d572ab",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "d314220b-16b4-4ad9-bc28-b8ba8fd8c562",
+        "start_time": "2023-09-06T15:37:08.143Z",
+        "end_time": "2023-09-07T00:13:33.541Z",
+        "status": "Inactive",
+        "created_at": "2023-09-07T01:44:19.790Z",
+        "updated_at": "2023-09-06T16:18:46.623Z",
+        "activity_id": "3d30f614-3e3d-4bed-8f61-0985249fd086",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "0855a965-5dfe-45fd-a6ee-4b8e4211e13b",
+        "start_time": "2023-09-06T11:38:36.209Z",
+        "end_time": "2023-09-06T22:39:30.718Z",
+        "status": "Pending",
+        "created_at": "2023-09-06T09:40:21.811Z",
+        "updated_at": "2023-09-06T20:42:09.262Z",
+        "activity_id": "ad2264f3-8858-4b6d-9a07-ef5c06d572ab",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "6d2cb50e-7cd4-4e51-a757-326af13775ca",
+        "start_time": "2023-09-06T19:05:33.638Z",
+        "end_time": "2023-09-06T23:29:43.394Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T09:21:36.672Z",
+        "updated_at": "2023-09-06T21:38:50.055Z",
+        "activity_id": "3d30f614-3e3d-4bed-8f61-0985249fd086",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "8348abf4-66a5-4af4-9fd0-4cb86d6f8d4d",
+        "start_time": "2023-09-06T18:11:28.367Z",
+        "end_time": "2023-09-06T17:39:42.669Z",
+        "status": "Completed",
+        "created_at": "2023-09-06T22:27:28.837Z",
+        "updated_at": "2023-09-06T09:00:50.283Z",
+        "activity_id": "38832f25-7c76-4c5f-893b-8a1d19ab8749",
+        "engineer_id": "user_entity_pk"
+      }
+    ],
+    "parts_order": [
+      {
+        "id": "a4e3c5ed-8183-4304-8b62-b548a9af9211",
+        "part_name": "CPU",
+        "quantity": 67929,
+        "status": "Processing",
+        "created_at": "2023-09-06T14:18:24.607Z",
+        "updated_at": "2023-09-06T11:29:34.828Z",
+        "activity_id": "3d30f614-3e3d-4bed-8f61-0985249fd086"
+      },
+      {
+        "id": "48c69842-a359-4103-9bc5-f785e5aa8b9d",
+        "part_name": "RAM",
+        "quantity": 17900,
+        "status": "Shipped",
+        "created_at": "2023-09-06T19:42:53.361Z",
+        "updated_at": "2023-09-06T09:52:39.213Z",
+        "activity_id": "38832f25-7c76-4c5f-893b-8a1d19ab8749"
+      },
+      {
+        "id": "1339a87a-b8de-4bb3-bd90-cb1ad199fdcc",
+        "part_name": "Hard Drive",
+        "quantity": 95737,
+        "status": "Delivered",
+        "created_at": "2023-09-06T09:36:03.579Z",
+        "updated_at": "2023-09-07T03:53:53.108Z",
+        "activity_id": "b965d702-6f72-40c1-9b0b-b8a4827cab14"
+      },
+      {
+        "id": "8baa0bac-9005-48f8-9470-65646905e4be",
+        "part_name": "Motherboard",
+        "quantity": 68006,
+        "status": "Returned",
+        "created_at": "2023-09-06T19:43:33.519Z",
+        "updated_at": "2023-09-06T11:49:40.918Z",
+        "activity_id": "3d30f614-3e3d-4bed-8f61-0985249fd086"
+      },
+      {
+        "id": "a4dbb6ff-186a-40b7-81ed-66c5b52154f7",
+        "part_name": "Graphics Card",
+        "quantity": 34373,
+        "status": "Cancelled",
+        "created_at": "2023-09-07T04:53:41.709Z",
+        "updated_at": "2023-09-06T12:01:50.811Z",
+        "activity_id": "38832f25-7c76-4c5f-893b-8a1d19ab8749"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e2866866-3ed3-4ce0-9a81-2afedaa90e42",
+        "email": "Virgie_Schuppe@gmail.com",
+        "firstName": "Rhea",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6770826",
+        "tenantId": null
+      },
+      {
+        "reference": "241f975a-6ac6-4c09-832e-53b59b28edc4",
+        "email": "Courtney.OConner81@yahoo.com",
+        "firstName": "Margie",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/81.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f81ae8c5-7b6c-4597-ab06-7c4a418cbd04",
+        "email": "Emmett.Waelchi67@hotmail.com",
+        "firstName": "Patrick",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70152971",
+        "tenantId": null
+      },
+      {
+        "reference": "e2802f7f-c540-4a40-a99d-176587f496e6",
+        "email": "Brittany.Braun@hotmail.com",
+        "firstName": "Clementina",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/214.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f9fdd391-cae6-4521-91cb-9631d722b358",
+        "email": "Kelsi.Gutkowski@gmail.com",
+        "firstName": "Kareem",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/223.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_request": [
+      {
+        "id": "f21faaba-dd84-461f-b1c7-c24f8d867cd2",
+        "status": "Open",
+        "problem_description": "Website is not loading properly",
+        "solution_description": "Cleared cache and cookies to resolve the issue",
+        "created_at": "2023-09-06T10:45:44.229Z",
+        "updated_at": "2023-09-06T23:24:58.863Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "20f657e4-07ce-40f0-a888-4e253595dcf7",
+        "status": "In Progress",
+        "problem_description": "Cannot login to the system",
+        "solution_description": "Reset password and provided login instructions",
+        "created_at": "2023-09-06T13:00:54.843Z",
+        "updated_at": "2023-09-07T02:36:01.766Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "482f0fde-09a9-4b09-9829-810a6ba1e2fa",
+        "status": "Resolved",
+        "problem_description": "Error message displayed on the screen",
+        "solution_description": "Fixed bug in the code and deployed the updated version",
+        "created_at": "2023-09-06T13:02:55.091Z",
+        "updated_at": "2023-09-07T02:26:32.973Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "706edcfe-bab3-4b32-a0b8-5d191f869330",
+        "status": "Pending",
+        "problem_description": "Data is missing from the database",
+        "solution_description": "Restored missing data from backup",
+        "created_at": "2023-09-06T10:17:53.202Z",
+        "updated_at": "2023-09-06T13:21:02.525Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8832a9bb-1fbd-49c3-a9f8-e9f2605234a3",
+        "status": "Closed",
+        "problem_description": "Application crashes when performing a specific action",
+        "solution_description": "Optimized code to prevent crashes",
+        "created_at": "2023-09-07T03:59:59.899Z",
+        "updated_at": "2023-09-07T04:32:47.551Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "b71577f2-b361-424a-a8d5-7256514fbd46",
+        "name": "Meeting",
+        "description": "Discussing project requirements and timelines",
+        "status": "Scheduled",
+        "created_at": "2023-09-06T17:30:26.478Z",
+        "updated_at": "2023-09-06T19:51:59.944Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "706edcfe-bab3-4b32-a0b8-5d191f869330"
+      },
+      {
+        "id": "34ebb8e9-123c-4848-8a02-ba6d3268f8ed",
+        "name": "Training",
+        "description": "Learning new technologies and best practices",
+        "status": "Ongoing",
+        "created_at": "2023-09-06T23:43:17.261Z",
+        "updated_at": "2023-09-06T21:23:15.175Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "482f0fde-09a9-4b09-9829-810a6ba1e2fa"
+      },
+      {
+        "id": "adcce2ff-c494-44c1-b837-16b90cad338f",
+        "name": "Presentation",
+        "description": "Delivering a sales pitch to potential clients",
+        "status": "Completed",
+        "created_at": "2023-09-07T07:45:07.605Z",
+        "updated_at": "2023-09-07T06:32:00.770Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "f21faaba-dd84-461f-b1c7-c24f8d867cd2"
+      },
+      {
+        "id": "c8b91e9d-e40c-4a58-b4f4-2d93ce8b3a38",
+        "name": "Workshop",
+        "description": "Hands-on session to practice new skills",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T09:35:01.414Z",
+        "updated_at": "2023-09-06T15:16:28.881Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "f21faaba-dd84-461f-b1c7-c24f8d867cd2"
+      },
+      {
+        "id": "c27efa44-66da-4010-a9ac-726e65dc66e6",
+        "name": "Team Building",
+        "description": "Engaging in team-building activities",
+        "status": "Postponed",
+        "created_at": "2023-09-07T05:14:55.981Z",
+        "updated_at": "2023-09-06T22:02:03.454Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "8832a9bb-1fbd-49c3-a9f8-e9f2605234a3"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "89b8b974-5fae-414f-b783-ad1eec7e4f97",
+        "start_time": "2023-09-07T06:36:28.235Z",
+        "end_time": "2023-09-06T08:43:56.104Z",
+        "status": "Active",
+        "created_at": "2023-09-06T08:57:43.302Z",
+        "updated_at": "2023-09-07T02:35:07.916Z",
+        "activity_id": "34ebb8e9-123c-4848-8a02-ba6d3268f8ed",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "f519a7f6-3f9a-462d-a36d-cef1341128b3",
+        "start_time": "2023-09-07T08:11:31.301Z",
+        "end_time": "2023-09-06T12:00:17.968Z",
+        "status": "Inactive",
+        "created_at": "2023-09-07T05:45:50.456Z",
+        "updated_at": "2023-09-07T02:11:16.060Z",
+        "activity_id": "adcce2ff-c494-44c1-b837-16b90cad338f",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "742c710c-aa97-4950-a550-bcd054b74bc2",
+        "start_time": "2023-09-07T02:56:12.378Z",
+        "end_time": "2023-09-06T10:38:15.554Z",
+        "status": "Pending",
+        "created_at": "2023-09-07T07:11:35.326Z",
+        "updated_at": "2023-09-06T16:19:43.376Z",
+        "activity_id": "adcce2ff-c494-44c1-b837-16b90cad338f",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "0e9af018-9701-472c-afef-4d8d547baa49",
+        "start_time": "2023-09-07T04:12:56.597Z",
+        "end_time": "2023-09-06T16:18:17.614Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T12:13:38.253Z",
+        "updated_at": "2023-09-06T08:31:02.273Z",
+        "activity_id": "34ebb8e9-123c-4848-8a02-ba6d3268f8ed",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "4e0575f9-5b24-4d9c-a3c7-c3d74dd21ca8",
+        "start_time": "2023-09-06T15:29:01.607Z",
+        "end_time": "2023-09-06T17:25:16.513Z",
+        "status": "Completed",
+        "created_at": "2023-09-06T16:09:21.656Z",
+        "updated_at": "2023-09-06T22:53:35.444Z",
+        "activity_id": "c27efa44-66da-4010-a9ac-726e65dc66e6",
+        "engineer_id": "user_entity_pk"
+      }
+    ],
+    "parts_order": [
+      {
+        "id": "c1200dc1-e009-4ec8-b757-8cbb72adebbf",
+        "part_name": "CPU",
+        "quantity": 57231,
+        "status": "Ordered",
+        "created_at": "2023-09-07T01:45:39.019Z",
+        "updated_at": "2023-09-07T04:16:11.911Z",
+        "activity_id": "b71577f2-b361-424a-a8d5-7256514fbd46"
+      },
+      {
+        "id": "a99abb8c-6cbd-4b8f-82f0-ebf6e99dd2ea",
+        "part_name": "RAM",
+        "quantity": 18708,
+        "status": "Shipped",
+        "created_at": "2023-09-07T04:22:42.180Z",
+        "updated_at": "2023-09-06T11:35:44.198Z",
+        "activity_id": "adcce2ff-c494-44c1-b837-16b90cad338f"
+      },
+      {
+        "id": "9912ded3-c631-4231-ba61-4bb6a93e549e",
+        "part_name": "Hard Drive",
+        "quantity": 95092,
+        "status": "Delivered",
+        "created_at": "2023-09-06T19:05:03.452Z",
+        "updated_at": "2023-09-07T05:54:49.966Z",
+        "activity_id": "b71577f2-b361-424a-a8d5-7256514fbd46"
+      },
+      {
+        "id": "fdb8f73f-b3c9-48ed-8390-e58f089e0f8d",
+        "part_name": "Graphics Card",
+        "quantity": 2834,
+        "status": "Returned",
+        "created_at": "2023-09-06T19:29:10.931Z",
+        "updated_at": "2023-09-06T12:23:26.309Z",
+        "activity_id": "b71577f2-b361-424a-a8d5-7256514fbd46"
+      },
+      {
+        "id": "54a65998-0304-41cc-801a-4f0d07aa3fe2",
+        "part_name": "Motherboard",
+        "quantity": 67842,
+        "status": "Out of Stock",
+        "created_at": "2023-09-07T01:11:10.572Z",
+        "updated_at": "2023-09-06T08:43:45.109Z",
+        "activity_id": "adcce2ff-c494-44c1-b837-16b90cad338f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0f682b08-0981-467a-a300-0b5653e668d0",
+        "email": "Alayna_Gutkowski-Klocko89@gmail.com",
+        "firstName": "Ernestina",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23521863",
+        "tenantId": null
+      },
+      {
+        "reference": "4bfb5edd-106f-46ca-b140-3db7a62c5dce",
+        "email": "Wanda.Heathcote50@gmail.com",
+        "firstName": "Colin",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/240.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "638849d6-3508-487e-b700-84c7469b36b8",
+        "email": "Vince95@gmail.com",
+        "firstName": "Freida",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1191.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "59d3bf79-6275-428a-8c42-ed726cae1f7b",
+        "email": "Jaunita75@hotmail.com",
+        "firstName": "Darryl",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1016.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4138a249-1570-405e-b585-a6c3534401aa",
+        "email": "Tomas.Lubowitz16@gmail.com",
+        "firstName": "Meta",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11753739",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_request": [
+      {
+        "id": "b5502d22-393c-4564-acfd-5914ecf38e81",
+        "status": "Pending",
+        "problem_description": "Website not loading properly",
+        "solution_description": "Cleared cache and resolved website issue",
+        "created_at": "2023-09-07T05:57:55.831Z",
+        "updated_at": "2023-09-06T19:47:01.120Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2bb4d298-be99-40fc-99cf-d418c19e4733",
+        "status": "In Progress",
+        "problem_description": "Network connectivity issues",
+        "solution_description": "Restarted router to fix network problem",
+        "created_at": "2023-09-06T22:01:03.210Z",
+        "updated_at": "2023-09-06T13:24:26.514Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "32668177-c404-4c40-bc41-ecabbfc5b2bd",
+        "status": "Completed",
+        "problem_description": "Software crashing frequently",
+        "solution_description": "Reinstalled software to resolve crashes",
+        "created_at": "2023-09-06T15:02:15.662Z",
+        "updated_at": "2023-09-06T11:22:23.819Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8d2aded4-9eb6-41d8-8c6b-f3723b59983b",
+        "status": "On Hold",
+        "problem_description": "Printer not working",
+        "solution_description": "Replaced printer cartridge to fix printing issue",
+        "created_at": "2023-09-07T05:47:03.357Z",
+        "updated_at": "2023-09-06T10:17:23.126Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "86f06ab8-75b7-4cd4-97dc-50a9c5f2607a",
+        "status": "Cancelled",
+        "problem_description": "Database connection error",
+        "solution_description": "Fixed database connection string to resolve error",
+        "created_at": "2023-09-06T13:43:28.349Z",
+        "updated_at": "2023-09-06T09:38:22.432Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "c4b03c41-4d68-47ca-b59d-4f5d8430f9e8",
+        "name": "Team Building Workshop",
+        "description": "Engage in team-building activities and improve collaboration",
+        "status": "Upcoming",
+        "created_at": "2023-09-06T22:21:15.527Z",
+        "updated_at": "2023-09-06T11:03:06.016Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "b5502d22-393c-4564-acfd-5914ecf38e81"
+      },
+      {
+        "id": "e97ce1e3-99b4-40e3-aeb8-d5d4bee63de2",
+        "name": "Product Launch Event",
+        "description": "Introduce new product to market with a grand event",
+        "status": "Ongoing",
+        "created_at": "2023-09-07T01:39:15.389Z",
+        "updated_at": "2023-09-06T21:20:45.076Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "2bb4d298-be99-40fc-99cf-d418c19e4733"
+      },
+      {
+        "id": "059cf6bd-af42-4b57-b476-0217a1378ea2",
+        "name": "Training Session",
+        "description": "Provide training on new software system",
+        "status": "Completed",
+        "created_at": "2023-09-07T02:32:41.940Z",
+        "updated_at": "2023-09-06T14:55:28.517Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "8d2aded4-9eb6-41d8-8c6b-f3723b59983b"
+      },
+      {
+        "id": "368e1f97-5a91-4540-b278-be9767d13aa1",
+        "name": "Charity Fundraiser",
+        "description": "Raise funds for a charitable cause",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T18:34:10.265Z",
+        "updated_at": "2023-09-06T12:48:54.415Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "8d2aded4-9eb6-41d8-8c6b-f3723b59983b"
+      },
+      {
+        "id": "180ddae7-fcd8-4d6a-9a4e-cd38cca8743d",
+        "name": "Conference",
+        "description": "Host a conference to share knowledge and insights",
+        "status": "Postponed",
+        "created_at": "2023-09-07T06:31:35.533Z",
+        "updated_at": "2023-09-06T11:56:40.603Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "b5502d22-393c-4564-acfd-5914ecf38e81"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "cd1760d4-72eb-4095-be3b-a9a508bbd8fe",
+        "start_time": "2023-09-06T22:40:37.391Z",
+        "end_time": "2023-09-07T00:18:02.359Z",
+        "status": "Active",
+        "created_at": "2023-09-07T08:23:36.361Z",
+        "updated_at": "2023-09-07T04:47:17.691Z",
+        "activity_id": "368e1f97-5a91-4540-b278-be9767d13aa1",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "67e15f2a-93c4-445f-8794-a934a82afe49",
+        "start_time": "2023-09-07T05:35:47.063Z",
+        "end_time": "2023-09-06T22:13:35.681Z",
+        "status": "Inactive",
+        "created_at": "2023-09-06T15:09:45.134Z",
+        "updated_at": "2023-09-07T05:54:22.748Z",
+        "activity_id": "059cf6bd-af42-4b57-b476-0217a1378ea2",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "53449b33-320d-4a4b-ac87-b41a5b139d5e",
+        "start_time": "2023-09-06T09:13:16.683Z",
+        "end_time": "2023-09-06T16:51:36.031Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-07T00:40:12.957Z",
+        "updated_at": "2023-09-06T15:20:16.401Z",
+        "activity_id": "180ddae7-fcd8-4d6a-9a4e-cd38cca8743d",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "2619aa41-89de-4960-8e93-2118960e433c",
+        "start_time": "2023-09-06T23:28:20.021Z",
+        "end_time": "2023-09-07T05:32:21.535Z",
+        "status": "Rescheduled",
+        "created_at": "2023-09-06T16:46:01.747Z",
+        "updated_at": "2023-09-07T05:19:49.397Z",
+        "activity_id": "e97ce1e3-99b4-40e3-aeb8-d5d4bee63de2",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "4fbdd3b9-e58f-4ccc-b3b0-8b5e510b799a",
+        "start_time": "2023-09-06T14:45:21.574Z",
+        "end_time": "2023-09-06T10:57:45.423Z",
+        "status": "Completed",
+        "created_at": "2023-09-06T12:59:19.634Z",
+        "updated_at": "2023-09-06T16:44:53.294Z",
+        "activity_id": "059cf6bd-af42-4b57-b476-0217a1378ea2",
+        "engineer_id": "user_entity_pk"
+      }
+    ],
+    "parts_order": [
+      {
+        "id": "f523ee60-0a0c-464f-96df-bfc8e45d7b08",
+        "part_name": "Motherboard",
+        "quantity": 40743,
+        "status": "Pending",
+        "created_at": "2023-09-06T23:22:39.456Z",
+        "updated_at": "2023-09-06T18:21:16.458Z",
+        "activity_id": "368e1f97-5a91-4540-b278-be9767d13aa1"
+      },
+      {
+        "id": "2a4e1b38-e584-4c66-b465-74d1d71908ed",
+        "part_name": "Hard Drive",
+        "quantity": 60663,
+        "status": "Processing",
+        "created_at": "2023-09-06T11:06:37.119Z",
+        "updated_at": "2023-09-07T03:59:15.548Z",
+        "activity_id": "368e1f97-5a91-4540-b278-be9767d13aa1"
+      },
+      {
+        "id": "a798cd45-998b-4f5c-bcbb-d398334adea8",
+        "part_name": "RAM",
+        "quantity": 81264,
+        "status": "Shipped",
+        "created_at": "2023-09-07T03:37:53.351Z",
+        "updated_at": "2023-09-06T23:42:01.549Z",
+        "activity_id": "c4b03c41-4d68-47ca-b59d-4f5d8430f9e8"
+      },
+      {
+        "id": "1c0b107c-180c-44ed-9def-a32bd63fc04c",
+        "part_name": "Graphics Card",
+        "quantity": 49639,
+        "status": "Delivered",
+        "created_at": "2023-09-06T11:02:17.387Z",
+        "updated_at": "2023-09-06T23:11:53.399Z",
+        "activity_id": "368e1f97-5a91-4540-b278-be9767d13aa1"
+      },
+      {
+        "id": "27e5e0b0-fc36-48f9-93a0-e8ec48c84167",
+        "part_name": "Power Supply",
+        "quantity": 21574,
+        "status": "Returned",
+        "created_at": "2023-09-07T06:48:21.711Z",
+        "updated_at": "2023-09-06T17:04:36.613Z",
+        "activity_id": "e97ce1e3-99b4-40e3-aeb8-d5d4bee63de2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7b245e0a-a88a-4138-90e4-8a04b35e1910",
+        "email": "Jasper.Torphy@yahoo.com",
+        "firstName": "Dennis",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1195.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f0a41b44-6c09-4c2a-9c5e-5c81290431ed",
+        "email": "Malachi.Hyatt@gmail.com",
+        "firstName": "Isai",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/450.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "299d9b22-d698-4294-9595-39477d006390",
+        "email": "Kianna_McLaughlin68@yahoo.com",
+        "firstName": "Seamus",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/17.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ccada675-9f8e-4177-841f-db674670785c",
+        "email": "Zola.Runolfsson-Mann@hotmail.com",
+        "firstName": "Marisa",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1248.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3fd47e33-c1ef-4df1-a4a3-5afd078240da",
+        "email": "Lucile.White@hotmail.com",
+        "firstName": "Ceasar",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77861724",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_request": [
+      {
+        "id": "96e886e0-e3b1-4e34-9263-79a7917bb0e7",
+        "status": "Open",
+        "problem_description": "The website is not loading properly",
+        "solution_description": "Performed a system reboot and resolved the issue",
+        "created_at": "2023-09-06T09:32:07.093Z",
+        "updated_at": "2023-09-07T00:32:22.137Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0b7996ab-75d6-4153-875b-be3f47ec3452",
+        "status": "In Progress",
+        "problem_description": "The printer is not working",
+        "solution_description": "Replaced the faulty printer cartridge and tested successfully",
+        "created_at": "2023-09-07T00:31:22.037Z",
+        "updated_at": "2023-09-06T17:01:29.406Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ce8c058f-9626-419a-bda0-8b363032c6f4",
+        "status": "Pending",
+        "problem_description": "The network connection is unstable",
+        "solution_description": "Reconfigured the network settings to improve stability",
+        "created_at": "2023-09-07T07:11:05.878Z",
+        "updated_at": "2023-09-06T20:40:48.265Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2f3da458-bca4-4ed2-bbac-ce84a3a8e491",
+        "status": "Completed",
+        "problem_description": "The software is crashing frequently",
+        "solution_description": "Identified a bug in the software code and fixed it",
+        "created_at": "2023-09-06T16:37:42.405Z",
+        "updated_at": "2023-09-07T03:46:13.496Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "73fc2c6a-1ccb-4342-a3c9-132da207fe3c",
+        "status": "Cancelled",
+        "problem_description": "The email server is down",
+        "solution_description": "Restarted the email server and restored service",
+        "created_at": "2023-09-06T10:28:47.634Z",
+        "updated_at": "2023-09-06T14:01:42.416Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "882d5d46-fdea-459b-be77-4faf1d35a0f0",
+        "name": "Meeting",
+        "description": "Discussing project updates and next steps",
+        "status": "Scheduled",
+        "created_at": "2023-09-06T15:09:24.010Z",
+        "updated_at": "2023-09-06T14:17:55.705Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "73fc2c6a-1ccb-4342-a3c9-132da207fe3c"
+      },
+      {
+        "id": "3a9fd622-46fa-409b-aa54-68660cb0cb35",
+        "name": "Training Session",
+        "description": "Providing training on new software features",
+        "status": "In Progress",
+        "created_at": "2023-09-06T23:08:02.736Z",
+        "updated_at": "2023-09-06T11:49:09.452Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "ce8c058f-9626-419a-bda0-8b363032c6f4"
+      },
+      {
+        "id": "350920e9-3668-4ef0-9a2f-7f5a17e407ce",
+        "name": "Presentation",
+        "description": "Delivering a sales pitch to potential clients",
+        "status": "Completed",
+        "created_at": "2023-09-06T10:33:11.706Z",
+        "updated_at": "2023-09-07T03:04:58.488Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "96e886e0-e3b1-4e34-9263-79a7917bb0e7"
+      },
+      {
+        "id": "f080fb6f-6e31-496c-ad4d-dac2517ac761",
+        "name": "Workshop",
+        "description": "Facilitating a hands-on learning session",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T14:37:46.271Z",
+        "updated_at": "2023-09-06T20:43:02.297Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "ce8c058f-9626-419a-bda0-8b363032c6f4"
+      },
+      {
+        "id": "4ec27dda-5a40-4828-904c-b252d584c414",
+        "name": "Team Building",
+        "description": "Engaging in team-building activities",
+        "status": "Postponed",
+        "created_at": "2023-09-07T05:48:19.849Z",
+        "updated_at": "2023-09-07T06:10:43.305Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "ce8c058f-9626-419a-bda0-8b363032c6f4"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "13efe465-d0f7-4daa-83ef-91faf82b25ca",
+        "start_time": "2023-09-06T22:08:55.606Z",
+        "end_time": "2023-09-06T15:39:03.961Z",
+        "status": "Active",
+        "created_at": "2023-09-06T10:58:57.013Z",
+        "updated_at": "2023-09-07T04:45:32.545Z",
+        "activity_id": "f080fb6f-6e31-496c-ad4d-dac2517ac761",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "0ad67a96-ac6f-45d6-b135-1d98c95a832a",
+        "start_time": "2023-09-06T17:34:42.101Z",
+        "end_time": "2023-09-06T12:40:53.810Z",
+        "status": "Inactive",
+        "created_at": "2023-09-06T12:05:46.075Z",
+        "updated_at": "2023-09-07T08:07:53.109Z",
+        "activity_id": "f080fb6f-6e31-496c-ad4d-dac2517ac761",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "5cac7df3-2394-469f-b4a3-f3339ed4b2e7",
+        "start_time": "2023-09-07T02:56:18.127Z",
+        "end_time": "2023-09-06T20:24:14.036Z",
+        "status": "Pending",
+        "created_at": "2023-09-06T11:00:45.731Z",
+        "updated_at": "2023-09-07T00:26:11.429Z",
+        "activity_id": "3a9fd622-46fa-409b-aa54-68660cb0cb35",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "3be3fe69-faa2-43ae-8406-79ff93a74822",
+        "start_time": "2023-09-07T08:13:41.000Z",
+        "end_time": "2023-09-06T22:45:09.589Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T16:11:51.636Z",
+        "updated_at": "2023-09-07T04:19:11.763Z",
+        "activity_id": "f080fb6f-6e31-496c-ad4d-dac2517ac761",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "2a768248-ad33-4bd0-8c6d-d557e2579934",
+        "start_time": "2023-09-06T22:09:49.563Z",
+        "end_time": "2023-09-06T09:51:36.782Z",
+        "status": "Completed",
+        "created_at": "2023-09-06T12:38:04.083Z",
+        "updated_at": "2023-09-06T21:15:58.935Z",
+        "activity_id": "3a9fd622-46fa-409b-aa54-68660cb0cb35",
+        "engineer_id": "user_entity_pk"
+      }
+    ],
+    "parts_order": [
+      {
+        "id": "b46ac153-19a8-40bb-9bad-acf15abb8d07",
+        "part_name": "Motherboard",
+        "quantity": 7854,
+        "status": "Processing",
+        "created_at": "2023-09-06T16:09:08.972Z",
+        "updated_at": "2023-09-06T14:53:09.427Z",
+        "activity_id": "882d5d46-fdea-459b-be77-4faf1d35a0f0"
+      },
+      {
+        "id": "b76463ca-9484-4f4d-991d-7780004e9418",
+        "part_name": "Hard Drive",
+        "quantity": 32257,
+        "status": "Shipped",
+        "created_at": "2023-09-07T02:18:17.710Z",
+        "updated_at": "2023-09-06T15:57:58.593Z",
+        "activity_id": "882d5d46-fdea-459b-be77-4faf1d35a0f0"
+      },
+      {
+        "id": "45a37dd3-1680-4883-831a-dfe86caeb90a",
+        "part_name": "Graphics Card",
+        "quantity": 95246,
+        "status": "Delivered",
+        "created_at": "2023-09-06T11:12:00.906Z",
+        "updated_at": "2023-09-07T05:41:51.269Z",
+        "activity_id": "4ec27dda-5a40-4828-904c-b252d584c414"
+      },
+      {
+        "id": "8cd5172b-be55-478d-b609-0017cedc2dc3",
+        "part_name": "RAM",
+        "quantity": 32678,
+        "status": "Cancelled",
+        "created_at": "2023-09-06T10:50:55.469Z",
+        "updated_at": "2023-09-06T11:29:06.830Z",
+        "activity_id": "3a9fd622-46fa-409b-aa54-68660cb0cb35"
+      },
+      {
+        "id": "54e92845-906b-4582-8d88-7efdb7c9d04c",
+        "part_name": "Power Supply",
+        "quantity": 29519,
+        "status": "Returned",
+        "created_at": "2023-09-07T05:20:49.500Z",
+        "updated_at": "2023-09-06T23:31:40.439Z",
+        "activity_id": "3a9fd622-46fa-409b-aa54-68660cb0cb35"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9957948c-afea-4b75-8732-25ad8d23b6fa",
+        "email": "Julia.Lebsack90@hotmail.com",
+        "firstName": "Cecil",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17681499",
+        "tenantId": null
+      },
+      {
+        "reference": "2558d6be-c67c-44c1-bc53-74868a163391",
+        "email": "Elta.Hintz@gmail.com",
+        "firstName": "Justen",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1193.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b1676bb-28c2-40bd-9beb-38f151a04ad8",
+        "email": "Jean23@hotmail.com",
+        "firstName": "Russ",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47425547",
+        "tenantId": null
+      },
+      {
+        "reference": "473676b7-9ff9-4397-9018-17e6541ca4e6",
+        "email": "Alan.Durgan96@hotmail.com",
+        "firstName": "Alfreda",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36378811",
+        "tenantId": null
+      },
+      {
+        "reference": "213dcbd7-fb22-4ee8-836e-5be591b81cde",
+        "email": "Armani_Rutherford31@gmail.com",
+        "firstName": "Aida",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68340134",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_request": [
+      {
+        "id": "7ec03f5c-1873-4ed9-ae4b-9c18c660a387",
+        "status": "Pending",
+        "problem_description": "Unable to access website",
+        "solution_description": "Resetting user credentials resolved the issue",
+        "created_at": "2023-09-06T19:49:21.426Z",
+        "updated_at": "2023-09-06T08:53:55.190Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ff4d0c9f-d050-4aef-bc19-ed89e96aadf1",
+        "status": "In Progress",
+        "problem_description": "Network connectivity issues",
+        "solution_description": "Performed network troubleshooting to resolve connectivity problem",
+        "created_at": "2023-09-07T01:41:24.580Z",
+        "updated_at": "2023-09-06T09:05:30.785Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2cb2eff7-a4a1-4ab2-bc58-bc1bea73fcdb",
+        "status": "Resolved",
+        "problem_description": "Software not functioning properly",
+        "solution_description": "Applied software patch to fix the bug",
+        "created_at": "2023-09-07T04:18:11.446Z",
+        "updated_at": "2023-09-07T06:49:40.066Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3edf11be-930e-4e8c-b05f-826ee4a1c24b",
+        "status": "On Hold",
+        "problem_description": "Hardware malfunction",
+        "solution_description": "Replaced faulty hardware component",
+        "created_at": "2023-09-06T14:17:31.990Z",
+        "updated_at": "2023-09-07T07:06:43.187Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8df00168-cd95-4ed4-8980-8067095f2555",
+        "status": "Cancelled",
+        "problem_description": "Data loss",
+        "solution_description": "Recovered data from backup",
+        "created_at": "2023-09-06T08:32:09.227Z",
+        "updated_at": "2023-09-06T10:29:57.485Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "0cb43d30-46a0-4948-972e-9b7956a25922",
+        "name": "Team Building Workshop",
+        "description": "Engaging workshop to enhance team collaboration and communication",
+        "status": "Upcoming",
+        "created_at": "2023-09-06T18:29:01.386Z",
+        "updated_at": "2023-09-06T08:32:49.922Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "8df00168-cd95-4ed4-8980-8067095f2555"
+      },
+      {
+        "id": "6ea54873-c66e-4587-96c6-ee1c6e2edac8",
+        "name": "Product Launch Event",
+        "description": "Exciting event to unveil the latest product innovation",
+        "status": "Ongoing",
+        "created_at": "2023-09-06T20:29:54.353Z",
+        "updated_at": "2023-09-06T12:10:42.760Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "7ec03f5c-1873-4ed9-ae4b-9c18c660a387"
+      },
+      {
+        "id": "6859ae8a-655e-4278-ae49-429cdc02a06f",
+        "name": "Charity Fundraising Campaign",
+        "description": "Campaign to raise funds for a noble cause",
+        "status": "Completed",
+        "created_at": "2023-09-07T05:07:13.547Z",
+        "updated_at": "2023-09-06T19:35:05.038Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "3edf11be-930e-4e8c-b05f-826ee4a1c24b"
+      },
+      {
+        "id": "d7356619-0d94-4dab-a1bc-b8beaa632930",
+        "name": "Training Seminar",
+        "description": "Informative seminar to enhance skills and knowledge",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T19:26:11.586Z",
+        "updated_at": "2023-09-06T18:01:47.415Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "7ec03f5c-1873-4ed9-ae4b-9c18c660a387"
+      },
+      {
+        "id": "a9861a01-0349-4aec-a06d-375d00ddd353",
+        "name": "Community Cleanup Drive",
+        "description": "Initiative to clean up the local community",
+        "status": "Postponed",
+        "created_at": "2023-09-06T10:41:35.726Z",
+        "updated_at": "2023-09-07T04:48:08.965Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "3edf11be-930e-4e8c-b05f-826ee4a1c24b"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "def68e67-754c-4eb3-a5a8-c1325b5f42b6",
+        "start_time": "2023-09-06T13:01:07.050Z",
+        "end_time": "2023-09-07T01:47:53.741Z",
+        "status": "Active",
+        "created_at": "2023-09-07T01:15:39.822Z",
+        "updated_at": "2023-09-06T16:24:36.964Z",
+        "activity_id": "a9861a01-0349-4aec-a06d-375d00ddd353",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "9bebfc25-6400-4fec-8721-c88d5d05d424",
+        "start_time": "2023-09-06T09:48:10.662Z",
+        "end_time": "2023-09-06T17:40:19.344Z",
+        "status": "Inactive",
+        "created_at": "2023-09-07T07:52:11.163Z",
+        "updated_at": "2023-09-06T13:15:08.924Z",
+        "activity_id": "6859ae8a-655e-4278-ae49-429cdc02a06f",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "ba13e2cf-be6f-4748-81a2-27840344b81c",
+        "start_time": "2023-09-06T16:35:45.852Z",
+        "end_time": "2023-09-06T16:45:16.918Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T09:45:58.535Z",
+        "updated_at": "2023-09-07T05:47:39.067Z",
+        "activity_id": "d7356619-0d94-4dab-a1bc-b8beaa632930",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "d41a17c1-b1a0-4f45-8b9c-31a4f5b17542",
+        "start_time": "2023-09-07T04:19:08.252Z",
+        "end_time": "2023-09-06T12:48:03.587Z",
+        "status": "Pending",
+        "created_at": "2023-09-07T02:11:17.133Z",
+        "updated_at": "2023-09-06T13:06:52.093Z",
+        "activity_id": "0cb43d30-46a0-4948-972e-9b7956a25922",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "00e68464-68e0-48a7-9016-52ec80bc83ca",
+        "start_time": "2023-09-06T11:04:23.543Z",
+        "end_time": "2023-09-07T03:46:53.997Z",
+        "status": "Confirmed",
+        "created_at": "2023-09-07T06:12:57.030Z",
+        "updated_at": "2023-09-07T06:20:50.188Z",
+        "activity_id": "a9861a01-0349-4aec-a06d-375d00ddd353",
+        "engineer_id": "user_entity_pk"
+      }
+    ],
+    "parts_order": [
+      {
+        "id": "f1aaaf40-0dbd-4aa8-ae78-ed747e412ff1",
+        "part_name": "Replacement Battery",
+        "quantity": 81099,
+        "status": "Processing",
+        "created_at": "2023-09-06T21:07:13.268Z",
+        "updated_at": "2023-09-06T09:18:26.816Z",
+        "activity_id": "6ea54873-c66e-4587-96c6-ee1c6e2edac8"
+      },
+      {
+        "id": "84216cae-d70c-4b67-9f51-c94cc1f83ab5",
+        "part_name": "CPU Fan",
+        "quantity": 65613,
+        "status": "Shipped",
+        "created_at": "2023-09-06T18:21:11.494Z",
+        "updated_at": "2023-09-06T19:51:28.552Z",
+        "activity_id": "d7356619-0d94-4dab-a1bc-b8beaa632930"
+      },
+      {
+        "id": "6387c4d5-12aa-4768-a4d4-180404b1e5f1",
+        "part_name": "Printer Toner Cartridge",
+        "quantity": 47521,
+        "status": "Delivered",
+        "created_at": "2023-09-06T20:44:25.843Z",
+        "updated_at": "2023-09-07T05:12:40.394Z",
+        "activity_id": "a9861a01-0349-4aec-a06d-375d00ddd353"
+      },
+      {
+        "id": "208ee6c8-ce39-4745-8810-045ba7630c0c",
+        "part_name": "Keyboard",
+        "quantity": 21264,
+        "status": "Delayed",
+        "created_at": "2023-09-06T13:27:50.086Z",
+        "updated_at": "2023-09-07T06:27:45.757Z",
+        "activity_id": "6ea54873-c66e-4587-96c6-ee1c6e2edac8"
+      },
+      {
+        "id": "cce1f3f1-1d76-4801-84ab-d12e82367192",
+        "part_name": "Hard Drive",
+        "quantity": 43996,
+        "status": "Cancelled",
+        "created_at": "2023-09-06T15:03:31.214Z",
+        "updated_at": "2023-09-06T18:26:17.469Z",
+        "activity_id": "0cb43d30-46a0-4948-972e-9b7956a25922"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "58252e2d-dde0-4c55-9401-2c678c824972",
+        "email": "Lula_Harris@hotmail.com",
+        "firstName": "Guillermo",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30670391",
+        "tenantId": null
+      },
+      {
+        "reference": "3bec50cc-012d-4589-8f01-0b756e3a4bb6",
+        "email": "Etha.Weimann@hotmail.com",
+        "firstName": "Tia",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8202372",
+        "tenantId": null
+      },
+      {
+        "reference": "5b7fef23-8bc6-4e49-83c6-6831c9e65f77",
+        "email": "Serena89@yahoo.com",
+        "firstName": "Emelia",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93890260",
+        "tenantId": null
+      },
+      {
+        "reference": "47fe4ed8-ab2a-46f1-a1b9-a86f04480b40",
+        "email": "Kole_Tillman@hotmail.com",
+        "firstName": "Oren",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13265001",
+        "tenantId": null
+      },
+      {
+        "reference": "eb9b57c7-8dae-47a5-8f7d-9354e62f662b",
+        "email": "Arturo.Padberg@yahoo.com",
+        "firstName": "Christy",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/783.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_request": [
+      {
+        "id": "4d5809f7-4aaa-407d-8fc1-08ee82f3c439",
+        "status": "Open",
+        "problem_description": "The website is not loading properly",
+        "solution_description": "Performed a system restart",
+        "created_at": "2023-09-06T18:04:04.880Z",
+        "updated_at": "2023-09-06T10:19:39.397Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "33b2f517-2c2d-41c5-a86d-62fe4fdd6d87",
+        "status": "In Progress",
+        "problem_description": "The printer is not working",
+        "solution_description": "Replaced the ink cartridge",
+        "created_at": "2023-09-06T23:22:58.663Z",
+        "updated_at": "2023-09-07T07:32:30.616Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fd0270a5-e205-4046-9a76-e627cf96b3a4",
+        "status": "Resolved",
+        "problem_description": "The network connection is unstable",
+        "solution_description": "Reset the router",
+        "created_at": "2023-09-07T00:43:34.206Z",
+        "updated_at": "2023-09-07T04:25:36.843Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3859cdfa-8ce9-41c4-9b61-fd854f10b605",
+        "status": "Pending",
+        "problem_description": "The software is crashing",
+        "solution_description": "Applied a software patch",
+        "created_at": "2023-09-07T07:55:07.791Z",
+        "updated_at": "2023-09-07T04:46:04.697Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d52611cb-9384-4620-a698-ce1ab92c53bf",
+        "status": "Cancelled",
+        "problem_description": "The email server is down",
+        "solution_description": "Restarted the email server",
+        "created_at": "2023-09-06T16:03:01.882Z",
+        "updated_at": "2023-09-06T11:53:02.668Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "159c1be9-bf6b-410b-beda-6d2c2bd86c4f",
+        "name": "Meeting",
+        "description": "Discussing project updates",
+        "status": "Scheduled",
+        "created_at": "2023-09-07T05:37:23.191Z",
+        "updated_at": "2023-09-06T19:13:21.781Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "d52611cb-9384-4620-a698-ce1ab92c53bf"
+      },
+      {
+        "id": "59cb2aa3-f1cb-4cc8-8fb6-748fdcca953c",
+        "name": "Training Session",
+        "description": "Learning new skills",
+        "status": "Ongoing",
+        "created_at": "2023-09-07T06:57:56.126Z",
+        "updated_at": "2023-09-07T00:35:36.961Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "fd0270a5-e205-4046-9a76-e627cf96b3a4"
+      },
+      {
+        "id": "a002e15c-e73a-48b4-b712-e19c564389c1",
+        "name": "Presentation",
+        "description": "Delivering a client pitch",
+        "status": "Completed",
+        "created_at": "2023-09-07T02:12:59.937Z",
+        "updated_at": "2023-09-07T02:25:50.558Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "fd0270a5-e205-4046-9a76-e627cf96b3a4"
+      },
+      {
+        "id": "b1ac63ae-d110-432c-8e1a-8842ebc1392c",
+        "name": "Workshop",
+        "description": "Hands-on practice",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T08:29:41.413Z",
+        "updated_at": "2023-09-07T06:58:46.782Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "4d5809f7-4aaa-407d-8fc1-08ee82f3c439"
+      },
+      {
+        "id": "5474a91d-8328-407a-8409-73c79200af46",
+        "name": "Team Building",
+        "description": "Building team morale",
+        "status": "Postponed",
+        "created_at": "2023-09-06T23:48:57.312Z",
+        "updated_at": "2023-09-07T04:15:44.035Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "fd0270a5-e205-4046-9a76-e627cf96b3a4"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "bcc65081-b922-4dee-b182-b13c3e379931",
+        "start_time": "2023-09-06T21:57:10.019Z",
+        "end_time": "2023-09-07T01:25:36.471Z",
+        "status": "Active",
+        "created_at": "2023-09-06T20:26:16.624Z",
+        "updated_at": "2023-09-06T12:06:48.566Z",
+        "activity_id": "159c1be9-bf6b-410b-beda-6d2c2bd86c4f",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "c0051fbf-6178-46df-98a9-5626d1cd80d2",
+        "start_time": "2023-09-07T08:26:45.278Z",
+        "end_time": "2023-09-06T09:22:21.118Z",
+        "status": "Inactive",
+        "created_at": "2023-09-06T23:40:06.447Z",
+        "updated_at": "2023-09-07T05:01:57.742Z",
+        "activity_id": "59cb2aa3-f1cb-4cc8-8fb6-748fdcca953c",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "532b4473-6069-4197-a426-8f6690935941",
+        "start_time": "2023-09-07T03:20:53.003Z",
+        "end_time": "2023-09-06T08:32:56.270Z",
+        "status": "Pending",
+        "created_at": "2023-09-07T03:02:58.825Z",
+        "updated_at": "2023-09-06T16:02:02.157Z",
+        "activity_id": "b1ac63ae-d110-432c-8e1a-8842ebc1392c",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "e58e18fd-e7ce-4ed2-8950-242f6515a7ca",
+        "start_time": "2023-09-06T15:18:06.883Z",
+        "end_time": "2023-09-07T04:56:51.663Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T18:06:51.408Z",
+        "updated_at": "2023-09-06T10:27:27.574Z",
+        "activity_id": "159c1be9-bf6b-410b-beda-6d2c2bd86c4f",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "c1a8c70f-7463-436c-84bf-f9509970d8cb",
+        "start_time": "2023-09-06T20:22:33.355Z",
+        "end_time": "2023-09-06T09:26:14.596Z",
+        "status": "Completed",
+        "created_at": "2023-09-06T15:08:54.581Z",
+        "updated_at": "2023-09-07T01:07:36.522Z",
+        "activity_id": "b1ac63ae-d110-432c-8e1a-8842ebc1392c",
+        "engineer_id": "user_entity_pk"
+      }
+    ],
+    "parts_order": [
+      {
+        "id": "fc4a9f4d-9c2f-40b2-a1ae-812cdcc64246",
+        "part_name": "Motherboard",
+        "quantity": 31394,
+        "status": "Processing",
+        "created_at": "2023-09-06T21:37:54.810Z",
+        "updated_at": "2023-09-07T07:47:13.286Z",
+        "activity_id": "b1ac63ae-d110-432c-8e1a-8842ebc1392c"
+      },
+      {
+        "id": "35b078d4-1079-4c91-955b-880245907aa9",
+        "part_name": "Hard Drive",
+        "quantity": 79839,
+        "status": "Shipped",
+        "created_at": "2023-09-07T01:55:00.622Z",
+        "updated_at": "2023-09-06T20:02:09.145Z",
+        "activity_id": "a002e15c-e73a-48b4-b712-e19c564389c1"
+      },
+      {
+        "id": "aff70954-70ae-4a95-9911-c35636496c9d",
+        "part_name": "RAM",
+        "quantity": 47299,
+        "status": "Delivered",
+        "created_at": "2023-09-06T23:42:26.872Z",
+        "updated_at": "2023-09-07T04:03:07.201Z",
+        "activity_id": "59cb2aa3-f1cb-4cc8-8fb6-748fdcca953c"
+      },
+      {
+        "id": "451d1489-37a0-4447-8368-19f200c33160",
+        "part_name": "Graphics Card",
+        "quantity": 72084,
+        "status": "Returned",
+        "created_at": "2023-09-06T14:21:47.587Z",
+        "updated_at": "2023-09-06T19:14:43.074Z",
+        "activity_id": "b1ac63ae-d110-432c-8e1a-8842ebc1392c"
+      },
+      {
+        "id": "1fc43951-9246-4bcd-a368-2178cb40fd01",
+        "part_name": "Power Supply",
+        "quantity": 64141,
+        "status": "Cancelled",
+        "created_at": "2023-09-06T10:24:12.012Z",
+        "updated_at": "2023-09-06T15:50:45.288Z",
+        "activity_id": "159c1be9-bf6b-410b-beda-6d2c2bd86c4f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4944f0b4-d035-4d9c-abb4-491af572f5f1",
+        "email": "Natasha.Torp20@hotmail.com",
+        "firstName": "Jazmin",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/679.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b583c7d3-3e15-41fc-ab42-14f49187694d",
+        "email": "Maximus.Ankunding58@gmail.com",
+        "firstName": "Rodger",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72360963",
+        "tenantId": null
+      },
+      {
+        "reference": "48650a00-c5db-4962-9d75-fdd2363ccdd1",
+        "email": "Eldon53@yahoo.com",
+        "firstName": "Kirstin",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/737.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "78e08a5d-9338-4b6b-8f48-58abe2727359",
+        "email": "Randall10@gmail.com",
+        "firstName": "Stefanie",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63648930",
+        "tenantId": null
+      },
+      {
+        "reference": "4a2a8a27-2699-4694-905b-47faced9d58b",
+        "email": "Kale.Rowe@hotmail.com",
+        "firstName": "Shany",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8618830",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_request": [
+      {
+        "id": "4262275a-5d47-4461-8f0f-e15cd6f37aad",
+        "status": "Pending",
+        "problem_description": "The website is not loading properly",
+        "solution_description": "Performed troubleshooting and resolved the issue",
+        "created_at": "2023-09-06T11:36:33.658Z",
+        "updated_at": "2023-09-06T16:07:47.358Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1da458c6-0e0d-4657-b342-d75e880e2bf7",
+        "status": "In Progress",
+        "problem_description": "The printer is not working",
+        "solution_description": "Replaced the faulty printer cartridge",
+        "created_at": "2023-09-06T12:28:21.626Z",
+        "updated_at": "2023-09-06T16:58:55.516Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1986f744-bdf5-4ac0-aff0-faf0b8bc9003",
+        "status": "Completed",
+        "problem_description": "The software is crashing frequently",
+        "solution_description": "Applied software update to fix the crashes",
+        "created_at": "2023-09-07T07:32:38.234Z",
+        "updated_at": "2023-09-06T20:28:51.985Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "617f7913-5697-45d9-a97d-bcb0142824bd",
+        "status": "On Hold",
+        "problem_description": "The network connection is unstable",
+        "solution_description": "Configured additional network equipment for stability",
+        "created_at": "2023-09-06T20:34:22.305Z",
+        "updated_at": "2023-09-07T00:44:43.656Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "da8e002a-d666-49f1-935d-a07d42aaeb00",
+        "status": "Cancelled",
+        "problem_description": "The server is down",
+        "solution_description": "Restarted the server and resolved the issue",
+        "created_at": "2023-09-06T14:21:55.698Z",
+        "updated_at": "2023-09-06T20:53:44.128Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "b3c27757-67e8-412f-862e-294f41db1896",
+        "name": "Team Building Workshop",
+        "description": "An interactive workshop to improve team collaboration",
+        "status": "Upcoming",
+        "created_at": "2023-09-06T12:52:10.848Z",
+        "updated_at": "2023-09-06T08:33:13.989Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "1986f744-bdf5-4ac0-aff0-faf0b8bc9003"
+      },
+      {
+        "id": "918c4ac3-a22c-4829-9df0-48e8111ac3d3",
+        "name": "Client Meeting",
+        "description": "A meeting with a potential client to discuss project requirements",
+        "status": "Ongoing",
+        "created_at": "2023-09-06T21:28:39.920Z",
+        "updated_at": "2023-09-06T14:08:18.550Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "1da458c6-0e0d-4657-b342-d75e880e2bf7"
+      },
+      {
+        "id": "3fd780fe-a981-4ef7-94ee-63b839e7e559",
+        "name": "Product Demo",
+        "description": "A demonstration of the latest product features to prospective customers",
+        "status": "Completed",
+        "created_at": "2023-09-07T00:00:26.503Z",
+        "updated_at": "2023-09-07T00:34:44.933Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "da8e002a-d666-49f1-935d-a07d42aaeb00"
+      },
+      {
+        "id": "a73c50fc-88d8-464f-86d3-07a038e78ea1",
+        "name": "Training Session",
+        "description": "A training session to enhance employee skills",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T17:43:57.281Z",
+        "updated_at": "2023-09-07T05:50:03.036Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "1986f744-bdf5-4ac0-aff0-faf0b8bc9003"
+      },
+      {
+        "id": "044e1565-e188-45a9-aa6c-c03c43f2ea46",
+        "name": "Project Review",
+        "description": "A review of project progress and milestones",
+        "status": "Postponed",
+        "created_at": "2023-09-06T17:00:32.504Z",
+        "updated_at": "2023-09-06T18:02:18.342Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "617f7913-5697-45d9-a97d-bcb0142824bd"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "b16a12df-46ad-47b1-8366-2077b916fa92",
+        "start_time": "2023-09-06T15:50:22.934Z",
+        "end_time": "2023-09-06T22:51:32.709Z",
+        "status": "Active",
+        "created_at": "2023-09-06T23:01:53.012Z",
+        "updated_at": "2023-09-07T07:25:43.745Z",
+        "activity_id": "3fd780fe-a981-4ef7-94ee-63b839e7e559",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "2f97bdd7-066e-49a7-b46e-9fccd977c92c",
+        "start_time": "2023-09-06T14:14:29.054Z",
+        "end_time": "2023-09-06T23:40:03.010Z",
+        "status": "Inactive",
+        "created_at": "2023-09-07T03:09:05.208Z",
+        "updated_at": "2023-09-07T04:45:44.643Z",
+        "activity_id": "3fd780fe-a981-4ef7-94ee-63b839e7e559",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "72ebb5d6-20c3-4737-93e7-7865a7777115",
+        "start_time": "2023-09-06T12:15:05.709Z",
+        "end_time": "2023-09-06T17:10:36.839Z",
+        "status": "Pending",
+        "created_at": "2023-09-07T01:40:47.792Z",
+        "updated_at": "2023-09-06T18:32:05.625Z",
+        "activity_id": "a73c50fc-88d8-464f-86d3-07a038e78ea1",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "0937cc3b-a868-482c-b2b1-e7f71434aa77",
+        "start_time": "2023-09-06T16:37:16.700Z",
+        "end_time": "2023-09-07T07:59:13.206Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T19:20:42.541Z",
+        "updated_at": "2023-09-06T19:27:13.000Z",
+        "activity_id": "b3c27757-67e8-412f-862e-294f41db1896",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "b979ab8c-2ab7-4773-94c0-f26f96dbe310",
+        "start_time": "2023-09-06T12:26:12.599Z",
+        "end_time": "2023-09-06T21:26:37.755Z",
+        "status": "Completed",
+        "created_at": "2023-09-06T13:43:01.110Z",
+        "updated_at": "2023-09-07T06:32:48.099Z",
+        "activity_id": "3fd780fe-a981-4ef7-94ee-63b839e7e559",
+        "engineer_id": "user_entity_pk"
+      }
+    ],
+    "parts_order": [
+      {
+        "id": "163b36ce-1586-423d-96b6-7b79a485e895",
+        "part_name": "Replacement Battery",
+        "quantity": 2095,
+        "status": "Processing",
+        "created_at": "2023-09-06T12:43:42.984Z",
+        "updated_at": "2023-09-06T23:37:53.650Z",
+        "activity_id": "918c4ac3-a22c-4829-9df0-48e8111ac3d3"
+      },
+      {
+        "id": "d2051917-775c-42e7-895c-1b8585656b07",
+        "part_name": "Power Adapter",
+        "quantity": 91249,
+        "status": "Shipped",
+        "created_at": "2023-09-07T07:11:13.221Z",
+        "updated_at": "2023-09-07T02:14:39.523Z",
+        "activity_id": "a73c50fc-88d8-464f-86d3-07a038e78ea1"
+      },
+      {
+        "id": "9268c1f9-2a26-46bd-a4c3-a2326c4ef6bb",
+        "part_name": "Motherboard",
+        "quantity": 69524,
+        "status": "Delivered",
+        "created_at": "2023-09-06T11:03:11.231Z",
+        "updated_at": "2023-09-06T18:32:03.576Z",
+        "activity_id": "918c4ac3-a22c-4829-9df0-48e8111ac3d3"
+      },
+      {
+        "id": "51597a10-c90d-4107-adb4-1d5cc1223fdf",
+        "part_name": "Hard Drive",
+        "quantity": 6807,
+        "status": "Returned",
+        "created_at": "2023-09-06T13:54:44.411Z",
+        "updated_at": "2023-09-06T13:05:10.981Z",
+        "activity_id": "918c4ac3-a22c-4829-9df0-48e8111ac3d3"
+      },
+      {
+        "id": "c8dee079-a33f-482d-9115-f69c366f018d",
+        "part_name": "RAM Module",
+        "quantity": 51582,
+        "status": "Cancelled",
+        "created_at": "2023-09-06T14:30:50.750Z",
+        "updated_at": "2023-09-06T17:49:15.568Z",
+        "activity_id": "044e1565-e188-45a9-aa6c-c03c43f2ea46"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "01d935a7-40d7-4afd-b6ed-543e725def72",
+        "email": "Darron55@gmail.com",
+        "firstName": "Lincoln",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1002.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2bd38ebe-d3a0-459d-9f03-255b3fd48921",
+        "email": "Jayda_Witting4@gmail.com",
+        "firstName": "Maurice",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36646482",
+        "tenantId": null
+      },
+      {
+        "reference": "2c66fa92-6c60-479b-976e-9f2d9be8d7b6",
+        "email": "Eldred_Jast29@yahoo.com",
+        "firstName": "Emery",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1065.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa8454ba-5fb9-4a29-8b36-1a54c70a7adf",
+        "email": "Liana89@hotmail.com",
+        "firstName": "Lance",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/28.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7dcd0d2d-56bc-423d-b699-c9d8f798e69d",
+        "email": "Maximillian.Hane@yahoo.com",
+        "firstName": "Benton",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/919.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service_request": [
+      {
+        "id": "877d4367-5a1f-4160-a9a8-66341550ab49",
+        "status": "Open",
+        "problem_description": "Unable to access website",
+        "solution_description": "Performed system reboot",
+        "created_at": "2023-09-06T15:28:26.320Z",
+        "updated_at": "2023-09-06T11:09:00.385Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "198f1eb7-42c1-49d0-93b5-2fea8a521c19",
+        "status": "In Progress",
+        "problem_description": "Network connectivity issues",
+        "solution_description": "Replaced faulty network cable",
+        "created_at": "2023-09-07T05:45:58.715Z",
+        "updated_at": "2023-09-06T23:43:59.241Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7eb60c63-d2ef-4c96-b993-a44c199aca4e",
+        "status": "Resolved",
+        "problem_description": "Software installation problem",
+        "solution_description": "Reinstalled software",
+        "created_at": "2023-09-06T15:00:06.246Z",
+        "updated_at": "2023-09-07T03:23:49.122Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "359ae0eb-4783-4619-849d-17e9baa8ece9",
+        "status": "Pending",
+        "problem_description": "Hardware malfunction",
+        "solution_description": "Replaced faulty hardware component",
+        "created_at": "2023-09-06T12:27:20.450Z",
+        "updated_at": "2023-09-06T17:36:50.804Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7124cc9a-5cf2-4e62-8f96-1a4f6a528d6e",
+        "status": "Closed",
+        "problem_description": "Data loss",
+        "solution_description": "Recovered data from backup",
+        "created_at": "2023-09-06T12:37:03.358Z",
+        "updated_at": "2023-09-06T22:13:25.629Z",
+        "customer_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "activity": [
+      {
+        "id": "9083357a-a388-4ebb-b44e-67371251ae75",
+        "name": "Meeting",
+        "description": "Discussing project updates",
+        "status": "Scheduled",
+        "created_at": "2023-09-07T03:24:57.982Z",
+        "updated_at": "2023-09-06T16:15:59.769Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "7124cc9a-5cf2-4e62-8f96-1a4f6a528d6e"
+      },
+      {
+        "id": "4ec27eb3-3fcb-403d-a87e-06b62b6cd9f7",
+        "name": "Training session",
+        "description": "Learning new skills",
+        "status": "In Progress",
+        "created_at": "2023-09-06T13:08:38.171Z",
+        "updated_at": "2023-09-07T01:51:08.470Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "198f1eb7-42c1-49d0-93b5-2fea8a521c19"
+      },
+      {
+        "id": "22170d46-80ed-4ef3-8586-15e33c944d59",
+        "name": "Conference",
+        "description": "Networking with industry professionals",
+        "status": "Completed",
+        "created_at": "2023-09-06T17:02:31.535Z",
+        "updated_at": "2023-09-06T11:41:35.783Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "198f1eb7-42c1-49d0-93b5-2fea8a521c19"
+      },
+      {
+        "id": "eea1ecfb-e897-424f-8715-87ecaeeb243c",
+        "name": "Workshop",
+        "description": "Hands-on learning experience",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T18:04:55.939Z",
+        "updated_at": "2023-09-06T09:52:47.809Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "7124cc9a-5cf2-4e62-8f96-1a4f6a528d6e"
+      },
+      {
+        "id": "cb47979f-debe-4a8d-9b3d-0caee2e473b9",
+        "name": "Team building activity",
+        "description": "Building team morale",
+        "status": "Postponed",
+        "created_at": "2023-09-07T01:24:04.353Z",
+        "updated_at": "2023-09-07T07:50:39.588Z",
+        "engineer_id": "user_entity_pk",
+        "service_request_id": "7124cc9a-5cf2-4e62-8f96-1a4f6a528d6e"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "1e1848b2-9762-44fd-becc-f35cfabf5965",
+        "start_time": "2023-09-06T17:53:42.523Z",
+        "end_time": "2023-09-06T16:19:26.367Z",
+        "status": "Active",
+        "created_at": "2023-09-06T17:28:05.437Z",
+        "updated_at": "2023-09-07T07:57:02.414Z",
+        "activity_id": "cb47979f-debe-4a8d-9b3d-0caee2e473b9",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "5423b100-5cf6-44bd-bf19-531bbf15c33f",
+        "start_time": "2023-09-06T14:00:51.061Z",
+        "end_time": "2023-09-06T13:16:26.050Z",
+        "status": "Inactive",
+        "created_at": "2023-09-07T03:19:43.335Z",
+        "updated_at": "2023-09-06T10:17:36.285Z",
+        "activity_id": "9083357a-a388-4ebb-b44e-67371251ae75",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "87488a7f-2ba4-4353-b4f8-8e50d5e68df8",
+        "start_time": "2023-09-07T00:26:17.379Z",
+        "end_time": "2023-09-06T08:57:54.658Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-06T22:17:34.421Z",
+        "updated_at": "2023-09-06T12:48:11.341Z",
+        "activity_id": "9083357a-a388-4ebb-b44e-67371251ae75",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "4065f49e-1768-43bb-a017-64a405c545f4",
+        "start_time": "2023-09-06T15:58:45.412Z",
+        "end_time": "2023-09-06T23:53:18.922Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T17:42:54.153Z",
+        "updated_at": "2023-09-06T17:25:46.660Z",
+        "activity_id": "eea1ecfb-e897-424f-8715-87ecaeeb243c",
+        "engineer_id": "user_entity_pk"
+      },
+      {
+        "id": "a041d3f7-7e9f-4da4-8f8f-68a344bf9f10",
+        "start_time": "2023-09-07T07:53:57.782Z",
+        "end_time": "2023-09-06T16:49:29.099Z",
+        "status": "Completed",
+        "created_at": "2023-09-06T14:18:32.816Z",
+        "updated_at": "2023-09-06T20:10:27.143Z",
+        "activity_id": "4ec27eb3-3fcb-403d-a87e-06b62b6cd9f7",
+        "engineer_id": "user_entity_pk"
+      }
+    ],
+    "parts_order": [
+      {
+        "id": "f2aa2873-b226-4944-8a51-b2bca5d75773",
+        "part_name": "CPU",
+        "quantity": 58055,
+        "status": "Pending",
+        "created_at": "2023-09-06T21:32:57.026Z",
+        "updated_at": "2023-09-06T13:35:03.232Z",
+        "activity_id": "eea1ecfb-e897-424f-8715-87ecaeeb243c"
+      },
+      {
+        "id": "293cdcac-4ef9-4fa4-b4e4-d19f299e0b37",
+        "part_name": "RAM",
+        "quantity": 76325,
+        "status": "Processing",
+        "created_at": "2023-09-07T02:10:21.756Z",
+        "updated_at": "2023-09-07T01:58:24.806Z",
+        "activity_id": "eea1ecfb-e897-424f-8715-87ecaeeb243c"
+      },
+      {
+        "id": "5b7c1724-406e-4064-afce-6dedd3a77dce",
+        "part_name": "Hard Drive",
+        "quantity": 78897,
+        "status": "Shipped",
+        "created_at": "2023-09-06T09:43:08.346Z",
+        "updated_at": "2023-09-06T20:54:14.482Z",
+        "activity_id": "22170d46-80ed-4ef3-8586-15e33c944d59"
+      },
+      {
+        "id": "d2b8a994-d0bf-466f-a39a-8db69f9d7d02",
+        "part_name": "Motherboard",
+        "quantity": 97567,
+        "status": "Delivered",
+        "created_at": "2023-09-07T05:30:34.334Z",
+        "updated_at": "2023-09-06T17:30:51.618Z",
+        "activity_id": "4ec27eb3-3fcb-403d-a87e-06b62b6cd9f7"
+      },
+      {
+        "id": "7e9643c0-f373-44f1-b7ce-e3cf5c24750d",
+        "part_name": "Graphics Card",
+        "quantity": 6725,
+        "status": "Returned",
+        "created_at": "2023-09-06T18:05:45.330Z",
+        "updated_at": "2023-09-06T20:35:11.010Z",
+        "activity_id": "22170d46-80ed-4ef3-8586-15e33c944d59"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "eda873ab-60ac-42cf-8abe-cadcb062e7da",
+        "email": "Raymond_Mann@hotmail.com",
+        "firstName": "Brooke",
+        "lastName": "Douglas-Little",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/706.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d4bc8775-1276-4524-93f6-fb1e87ae298e",
+        "email": "Jody.Considine88@gmail.com",
+        "firstName": "Bradley",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2548290",
+        "tenantId": null
+      },
+      {
+        "reference": "15f657f4-7ece-4c25-9e83-57fac6caaede",
+        "email": "Hailie.Greenholt-Kemmer@gmail.com",
+        "firstName": "Demond",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1075.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f02c7ac4-cf23-48b4-9f6a-71f2ab3a6d1a",
+        "email": "Myah_Green@gmail.com",
+        "firstName": "Margarete",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67159029",
+        "tenantId": null
+      },
+      {
+        "reference": "47cc988b-64b5-424a-a274-3e158bf985a0",
+        "email": "Serena.Davis@yahoo.com",
+        "firstName": "Jettie",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27829134",
+        "tenantId": null
+      }
+    ]
+  }
+]
